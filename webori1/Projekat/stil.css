@@ -1,0 +1,59 @@
+[class^='kontejner']{
+   /* width: 400px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-collapse: collapse;*/
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.kontForma{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+   /* width: 400px;
+    display: flex;
+    flex-direction: column;*/
+    margin: 1px;    
+}
+[class^='kontSed']{
+    display:flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.red{
+    display: flex;
+    flex-grow: 1;
+}
+[class^='sed']{
+    border: 1px solid black;
+    flex: 1 1 10px;
+    margin: 5px;
+    text-align: center;
+
+}
+.glavniKontejner{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.crvena{
+    background-color: red;
+}
+.PocetnaForma{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    background-color: #b3ffd9 ;
+    border: 1px solid black;
+    max-width: 30%;
+   
+}
+input {
+    margin-bottom:10px;
+}
+button{
+    margin-bottom:10px;
+    margin-top:10px;
+}
