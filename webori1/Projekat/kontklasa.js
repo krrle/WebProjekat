@@ -60,7 +60,7 @@ export class Kontejner{
             avKon.appendChild(PocetnaForma);
   
    
-          
+            var newAvi
             let dug2;
             dug2=document.createElement("button");
             dug2.innerHTML="Obrisi Avion";
@@ -97,7 +97,7 @@ export class Kontejner{
               
 
                 let kontejnerSaNazivom=document.createElement("div");
-                var newAvi;
+                //var newAvi;
                
                 if(xic<0 || yic<0)
                     alert("Velicine moraju biti pozitivne vrednosti");
@@ -189,7 +189,7 @@ export class Kontejner{
                                         this.dodajAvion(newAvi);
                                        
                                 }); 
-                                console.log(this);
+                               
                                 newAvi.crtajAvion(kontejnerSaNazivom); 
                                
                                 avKon.appendChild(kontejnerSaNazivom);
